@@ -78,7 +78,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	/* background: rgb(244, 244, 196); */
-	outline: 1px solid tomato;
+	/* outline: 1px solid tomato; */
 }
 
 .section {
@@ -88,18 +88,16 @@ img {
 
 /* -----------------HEADER----------------- */
 
-.header-main {
+.header {
 	border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
 	display: flex;
 	align-items: center;
 }
 
-.header-logo {
-	margin-right: 93px;
-}
+/* Logo */
 
 .logo {
 	font-family: "Raleway", Verdana, sans-serif;
@@ -110,17 +108,28 @@ img {
 	color: var(--logo-primary-color);
 }
 
-.logo-web {
+.logo__header {
+	margin-right: 93px;
+}
+
+.logo__header--accent {
 	color: var(--accent-color);
 }
 
-.navigate {
+/* Navigation pages */
+
+.nav {
 	display: flex;
 	align-items: center;
 	gap: 50px;
 }
 
-.nav-list {
+.nav__list {
+	display: block;
+	
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	font-weight: 500;
 	font-size: 14px;
 	line-height: calc(16 / 14);
@@ -132,11 +141,11 @@ img {
 	transition: var(--animation-color);
 }
 
-.nav-list.curent {
+.nav__list--curent {
 	color: var(--accent-color);
 }
 
-.curent::after {
+.nav__list--curent::after {
 	content: "";
 
 	display: block;
@@ -149,25 +158,27 @@ img {
 	bottom: 0;
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.nav__list:hover,
+.nav__list:focus {
 	color: var(--accent-color);
 }
 
-.nav-list,
-.header-list-contact {
-	display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
-}
+/* Contacts in Header */
 
-.contact-list {
+.contacts {
 	display: flex;
 	margin-left: auto;
 	gap: 50px;
 }
 
-.header-list-contact {
+.contacts__item--header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	font-weight: 500;
 	font-size: 14px;
 	line-height: calc(16 / 14);
@@ -177,18 +188,12 @@ img {
 	transition: var(--animation-color);
 }
 
-.header-list-contact:hover,
-.header-list-contact:focus {
+.contacts__item--header:hover,
+.contacts__item--header:focus {
 	color: var(--accent-color);
 }
 
-.header-list-contact {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.header-icon {
+.contacts__icon {
 	fill: currentColor;
 }
 
