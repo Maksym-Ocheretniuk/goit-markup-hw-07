@@ -315,18 +315,18 @@ img {
 	margin-bottom: 50px;
 }
 
-.projects-list {
+.projects__list {
 	display: flex;
 	align-items: center;
 	/* justify-content: space-around; */
 	gap: 30px;
 }
 
-.projects-item {
+.projects__item {
 	position: relative;
 }
 
-.projects-text {
+.projects__text {
 	position: absolute;
 	bottom: 0;
 
