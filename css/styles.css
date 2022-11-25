@@ -213,7 +213,7 @@ img {
 	background-size: cover;
 }
 
-.hero-title {
+.hero__title {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: calc(60 / 44);
@@ -228,7 +228,7 @@ img {
 	padding-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -249,12 +249,12 @@ img {
 	transition: var(--animation-bcg);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
 	background: var(--btn-hero-accent-color);
 }
 
-.btn-container {
+.hero__btn-container {
 	display: flex;
 	justify-content: center;
 }
@@ -269,11 +269,11 @@ img {
 	gap: 30px;
 }
 
-.feature-item {
+.features__item {
 	width: 270px;
 }
 
-.feature-icon {
+.features__icon {
 	display: flex;
 	height: 120px;
 	align-items: center;
@@ -284,7 +284,7 @@ img {
 	border-radius: 4px;
 }
 
-.features-title {
+.features__title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: calc(16 / 14);
@@ -292,7 +292,7 @@ img {
 	padding-bottom: 10px;
 }
 
-.features-text {
+.features__text {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: calc(24 / 14);
@@ -306,7 +306,7 @@ img {
 	padding-top: 0;
 }
 
-.section-title {
+.section__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: calc(42 / 36);
