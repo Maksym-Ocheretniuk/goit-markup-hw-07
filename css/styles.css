@@ -428,7 +428,7 @@ img {
 	gap: 30px;
 }
 
-.clients-link {
+.clients__link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -442,21 +442,21 @@ img {
 	transition: var(--animation-bcg);
 }
 
-.clients-icon {
+.clients__icon {
 	fill: currentColor;
 
 	transition: var(--animation-color);
 }
 
-.clients-item {
+.clients__item {
 	border: 1px solid --socials__icon-primary-color;
 	border-radius: 4px;
 	background-color: var(--primary-white-color);
 	color: var(--socials__icon-primary-color);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
 	color: var(--accent-color);
 	border-color: var(--accent-color);
 }
